@@ -28,7 +28,7 @@
 
 .mensaje{
     background-color: rgb(255, 255, 255);
-    background-image: url("/assets/stitchfondo.png");
+    background-image: url("assets/stitchfondo.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 50px;
