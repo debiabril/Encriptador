@@ -1,0 +1,41 @@
+*{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: rgb(228, 240, 252);
+}
+
+
+.text-area{
+    text-transform: lowercase;
+    color: black;
+    text-decoration: solid;
+    text-decoration-color: black;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+    min-height: 70%;
+
+}
+::placeholder{
+    color: black;
+    text-decoration: solid;
+    text-decoration-color: black;
+}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background-color: rgb(255, 255, 255);
+    background-image: url("/assets/stitchfondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    min-height: 68%;
+    min-width: 40%;
+}
+.mensaje:focus{
+    outline: none;
+}
+
